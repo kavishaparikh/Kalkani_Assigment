@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.itemCardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.itemCard{
+  display: flex;
+  border: 1px solid black;
+  height: 50px;
+  width: 90%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.itemMidContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.nickName{
+  border: 1px solid black;
+  padding: 2px;
+}
